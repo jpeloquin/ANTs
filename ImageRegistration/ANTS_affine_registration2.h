@@ -130,7 +130,7 @@ std::ostream & operator<<(std::ostream& os, const OptAffine<TAffineTransform,  T
     os << p.number_of_iteration_list[p.number_of_iteration_list.size() - 1];
     }
   os << "]" << std::endl;
-  os << "graident_scales=" << "[";
+  os << "gradient_scales=" << "[";
   for( unsigned int i = 0; i < p.gradient_scales.size() - 1; i++ )
     {
     os << p.gradient_scales[i] << ",";
